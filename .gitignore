@@ -1,0 +1,52 @@
+###################
+# GLOBAL
+###################
+*.DS_Store
+
+###################
+# VS CODE
+###################
+*.vscode/*
+*.vscode/
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Executables
+*.exe
+*.out
+*.app
+
+###########################
+# HASKELL
+###########################
+
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.hie
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+
+# ignore yarn.lock
+yarn.lock
+
