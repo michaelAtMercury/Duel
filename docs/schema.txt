@@ -1,0 +1,17 @@
+
+[] a database for storing cards
+
+[] a table containing all cards
+    ID              Int    
+    Name            Varchar(255)
+    Card Type       [Monster | Spell | Trap]
+    Attribute       [Dark, Divine, Earth, Fire, Light, Water, Wind]
+    Types           [Aqua, Beast, Beast-Warrior, Cyberse, Dinosaur, Divine-Beast, Dragon, Fairy, Fiend, Fish, Insect, Machine, Plant, Psychic, Pyro, Reptile, Rock, Sea Serpent, Spellcaster, Thunder, Warrior, Winged Beast, Wyrm, Zombie]
+    Level           0 - 12
+    ATK             Maybe Int
+    DEF             Maybe Int
+    Description     varchar(5000)
+    Effects         varchar(max); comma seperated? could be a sub table?
+    Passcode        Int
+
+
