@@ -1,6 +1,6 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.34.4.
+-- This file has been generated from package.yaml by hpack version 0.34.6.
 --
 -- see: https://github.com/sol/hpack
 
@@ -33,6 +33,9 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , esqueleto
+    , persistent
+    , persistent-template
     , text
     , yesod >=1.5
   default-language: Haskell2010
@@ -47,6 +50,9 @@ executable Duel-exe
   build-depends:
       Duel
     , base >=4.7 && <5
+    , esqueleto
+    , persistent
+    , persistent-template
     , text
     , yesod >=1.5
   default-language: Haskell2010
@@ -62,6 +68,9 @@ test-suite Duel-test
   build-depends:
       Duel
     , base >=4.7 && <5
+    , esqueleto
+    , persistent
+    , persistent-template
     , text
     , yesod >=1.5
   default-language: Haskell2010
