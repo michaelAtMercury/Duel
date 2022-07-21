@@ -23,7 +23,9 @@ dependencies:
 - base >= 4.7 && < 5
 - yesod >= 1.5
 - text 
-
+- persistent
+- persistent-template
+- esqueleto
 
 library:
   source-dirs: src
